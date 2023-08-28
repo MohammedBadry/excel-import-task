@@ -29,7 +29,7 @@ To get a local copy up and running follow these simple example steps.
    ```
 6. Open the project on your browser like below
    ```js
-    http://localhost/task
+    http://localhost/excel-import-task
    ```
 7. For testing:
    - Open `Databse.php` in `app/Libraries` directory
