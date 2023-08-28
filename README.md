@@ -18,7 +18,7 @@ To get a local copy up and running follow these simple example steps.
    ```
 3. Go to your phpMyAdmin and create new database
 
-4. Import the db.sql file from the root directory
+4. Import the `db.sql` file from the root directory
 
 5. Enter your DB Settings in `dbConfig.php` in the root directory
    ```js
