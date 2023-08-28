@@ -1,0 +1,26 @@
+{
+    "require-dev": {
+        "phpunit/phpunit": "^9.5"
+    },
+    "autoload": {
+       "psr-4": {
+            "Controllers\\": "app/Controllers",
+            "Models\\": "app/Models",
+            "Interfaces\\": "app/Interfaces",
+            "Libraries\\": "app/Libraries",
+            "Requests\\": "app/Requests",
+            "Strategies\\": "app/Strategies",
+            "GuzzleHttp\\Psr7\\": "src/"
+       }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Tests\\": "tests/",
+            "GuzzleHttp\\Tests\\Psr7\\": "tests/"
+        }
+    },
+    "require": {
+        "phpoffice/phpspreadsheet": "^1.29",
+        "guzzlehttp/psr7": "^2.6"
+    }
+}
