@@ -36,7 +36,7 @@
                                     <div class="nk-block-head nk-block-head-lg wide-sm">
                                         <div class="nk-block-head-content">
                                             <h2 class="nk-block-title fw-normal">Import Orders</h2>
-                                            <a href="/task?act=all-orders">Show Orders</a>
+                                            <a href="/<?=BASE_URL;?>?act=all-orders">Show Orders</a>
                                         </div>
                                     </div><!-- .nk-block-head -->
                                     <div class="nk-block nk-block-lg">
@@ -49,7 +49,7 @@
 											</div>
 											<?php } ?>
                                             <div class="card-inner">
-												<form method="post" action="/task/?act=import-orders" enctype="multipart/form-data">
+												<form method="post" action="/<?=BASE_URL;?>/?act=import-orders" enctype="multipart/form-data">
                                                 <div class="preview-block">
                                                     <div class="row gy-4">
                                                         <div class="col-sm-12">

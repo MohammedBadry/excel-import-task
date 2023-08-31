@@ -20,7 +20,7 @@
 										<div class="nk-block-head nk-block-head-lg wide-sm">
 											<div class="nk-block-head-content">
 												<h2 class="nk-block-title fw-normal">Import Orders</h2>
-												<a href="/task">Home Page</a>
+												<a href="/<?=BASE_URL;?>">Home Page</a>
 											</div>
 										</div><!-- .nk-block-head -->
 										<div class="nk-block nk-block-lg">
